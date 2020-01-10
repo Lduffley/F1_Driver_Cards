@@ -2,6 +2,8 @@ const drivers = [
   {
     id: 1,
     name: "Daniel Ricciadro",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/daniel-ricciardo/_jcr_content/image.img.1920.medium.jpg/1554819092086.jpg",
     number: 3,
     team: "Renault F1 Team",
     yearsOld: {
@@ -13,6 +15,8 @@ const drivers = [
   {
     id: 2,
     name: "Lando Norris",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/image.img.1920.medium.jpg/1567085899345.jpg",
     number: 4,
     team: "McLaren",
     yearsOld: {
@@ -24,6 +28,8 @@ const drivers = [
   {
     id: 3,
     name: "Sebastian Vettel",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/sebastian-vettel/_jcr_content/image.img.1920.medium.jpg/1567175200601.jpg",
     number: 5,
     team: "Ferrari",
     yearsOld: {
@@ -35,6 +41,8 @@ const drivers = [
   {
     id: 4,
     name: "Kimi Raikkonen",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
     number: 7,
     team: "Alfa Romeo",
     yearsOld: {

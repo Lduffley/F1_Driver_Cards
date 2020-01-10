@@ -5,13 +5,12 @@ import "./Card-list.css";
 function Card(props) {
   return (
     <div className="card-container">
-      <span>{props.name}</span>
-      <span>
-        {props.age} {props.born}
-      </span>
-      <span>{props.number}</span>
-      <span>{props.team}</span>
-      <span>{props.nationality}</span>
+      <img alt="driver" src={props.imgURL} />
+      <h2>{props.name}</h2>
+      <h3> Number: {props.number}</h3>
+      <p> Age: {props.age}</p>
+      <p>Team: {props.team}</p>
+      <p> Nationality: {props.nationality}</p>
     </div>
   );
 }

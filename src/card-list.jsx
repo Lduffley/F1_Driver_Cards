@@ -10,6 +10,7 @@ function CardList() {
         <Card
           key={createCard.id}
           name={createCard.name}
+          imgURL={createCard.imgURL}
           number={createCard.number}
           team={createCard.team}
           age={createCard.yearsOld.age}
