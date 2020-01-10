@@ -6,6 +6,9 @@ function Card(props) {
   return (
     <div className="card-container">
       <span>{props.name}</span>
+      <span>
+        {props.age} {props.born}
+      </span>
       <span>{props.number}</span>
       <span>{props.team}</span>
       <span>{props.nationality}</span>
