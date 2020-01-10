@@ -10,7 +10,7 @@ function Card(props) {
       <h3> Number: {props.number}</h3>
       <p> Age: {props.age}</p>
       <p>Team: {props.team}</p>
-      <p> Nationality: {props.nationality}</p>
+      <p> Country: {props.country}</p>
     </div>
   );
 }

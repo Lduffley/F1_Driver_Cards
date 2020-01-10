@@ -1,10 +1,23 @@
-import React from "react";
+import React, { useState } from "react";
+import "./drivers";
 
-export const SearchBox = props => (
-  <input
-    className="search-box"
-    type="search"
-    placeholder="search drivers"
-    onChange={props.onSearchChange}
-  />
-);
+function SearchBox() {
+  const [search, setSearch] = useState("");
+
+  return (
+    <input
+    // onChange={e => {
+    //   const filteredTeams = teams_data.filter(team => {
+    //     return team.toLowerCase().includes(e.target.value.toLowerCase());
+    //   });
+
+    //   setTeams(filteredTeams);
+    //   setSearch(e.target.value);
+    // }}
+    // type="text"
+    // value={search}
+    />
+  );
+}
+
+export default SearchBox;

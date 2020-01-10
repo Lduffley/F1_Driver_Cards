@@ -10,7 +10,7 @@ const drivers = [
       born: "1989-07-01",
       age: 30
     },
-    nationality: "Australia"
+    country: "Australia"
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const drivers = [
       born: "1999-11-13",
       age: 20
     },
-    nationality: "United Kingdom"
+    country: "United Kingdom"
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const drivers = [
       born: "1987-07-03",
       age: 32
     },
-    nationality: "Germany"
+    country: "Germany"
   },
   {
     id: 4,
@@ -49,7 +49,7 @@ const drivers = [
       born: "1979-10-17 ",
       age: 40
     },
-    nationality: "Finland"
+    country: "Finland"
   },
   {
     id: 5,
@@ -60,7 +60,7 @@ const drivers = [
       born: "1986-04-17",
       age: 33
     },
-    nationality: "France"
+    country: "France"
   },
   {
     id: 6,
@@ -71,7 +71,7 @@ const drivers = [
       born: "1996-02-07",
       age: 23
     },
-    nationality: "France"
+    country: "France"
   },
   {
     id: 7,
@@ -82,7 +82,7 @@ const drivers = [
       born: "1990-01-26",
       age: 29
     },
-    nationality: "Mexico"
+    country: "Mexico"
   },
   {
     id: 8,
@@ -93,7 +93,7 @@ const drivers = [
       born: "1997-10-16",
       age: 22
     },
-    nationality: "Monaco"
+    country: "Monaco"
   },
   {
     id: 9,
@@ -104,7 +104,7 @@ const drivers = [
       born: "1998-10-29",
       age: 21
     },
-    nationality: "Canada"
+    country: "Canada"
   },
   {
     id: 10,
@@ -115,7 +115,7 @@ const drivers = [
       born: "1992-10-05",
       age: 27
     },
-    nationality: "Denmark"
+    country: "Denmark"
   },
   {
     id: 11,
@@ -126,7 +126,7 @@ const drivers = [
       born: "1996-03-23",
       age: 23
     },
-    nationality: "Thailand"
+    country: "Thailand"
   },
   {
     id: 12,
@@ -137,7 +137,7 @@ const drivers = [
       born: "1994-04-26",
       age: 25
     },
-    nationality: "Russian Federation"
+    country: "Russian Federation"
   },
   {
     id: 13,
@@ -148,7 +148,7 @@ const drivers = [
       born: "1987-08-19",
       age: 32
     },
-    nationality: "Germany"
+    country: "Germany"
   },
   {
     id: 14,
@@ -159,7 +159,7 @@ const drivers = [
       born: "1997-09-30",
       age: 22
     },
-    nationality: "Netherlands"
+    country: "Netherlands"
   },
   {
     id: 15,
@@ -170,7 +170,7 @@ const drivers = [
       born: "1985-01-07",
       age: 35
     },
-    nationality: "United Kingdom"
+    country: "United Kingdom"
   },
   {
     id: 16,
@@ -181,7 +181,7 @@ const drivers = [
       born: "1994-09-01",
       age: 25
     },
-    nationality: "Spain"
+    country: "Spain"
   },
   {
     id: 17,
@@ -192,7 +192,7 @@ const drivers = [
       born: "1998-02-15",
       age: 21
     },
-    nationality: "United Kingdom"
+    country: "United Kingdom"
   },
   {
     id: 18,
@@ -203,7 +203,7 @@ const drivers = [
       born: "1989-08-28",
       age: 30
     },
-    nationality: "Finland"
+    country: "Finland"
   },
   {
     id: 19,
@@ -214,7 +214,7 @@ const drivers = [
       born: "1984-12-07",
       age: 35
     },
-    nationality: "Poland"
+    country: "Poland"
   },
   {
     id: 20,
@@ -225,7 +225,7 @@ const drivers = [
       born: "1993-12-14",
       age: 26
     },
-    nationality: "Italy"
+    country: "Italy"
   }
 ];
 

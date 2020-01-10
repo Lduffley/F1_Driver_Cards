@@ -14,7 +14,7 @@ function CardList() {
           number={createCard.number}
           team={createCard.team}
           age={createCard.yearsOld.age}
-          nationality={createCard.nationality}
+          country={createCard.country}
         />
       ))}
     </div>
