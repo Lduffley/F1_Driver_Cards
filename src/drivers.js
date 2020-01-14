@@ -157,7 +157,7 @@ const drivers = [
     id: 11,
     name: "Alex Albon",
     imgURL:
-      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+      "https://www.formula1.com/content/fom-website/en/drivers/alexander-albon/_jcr_content/image.img.1920.medium.jpg/1566295320855.jpg",
     helmet:
       "https://www.formula1.com/content/fom-website/en/drivers/alexander-albon/_jcr_content/helmet.img.png/1552320745924.png",
     number: 23,
