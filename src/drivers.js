@@ -4,19 +4,27 @@ const drivers = [
     name: "Daniel Ricciadro",
     imgURL:
       "https://www.formula1.com/content/fom-website/en/drivers/daniel-ricciardo/_jcr_content/image.img.1920.medium.jpg/1554819092086.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/daniel-ricciardo/_jcr_content/helmet.img.png/1552565540881.png",
     number: 3,
     team: "Renault F1 Team",
     yearsOld: {
       born: "1989-07-01",
       age: 30
     },
-    country: "Australia"
+    country: "Australia",
+    podiums: 29,
+    points: 1040,
+    grandPrix: 171,
+    highestPol: 1
   },
   {
     id: 2,
     name: "Lando Norris",
     imgURL:
       "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/image.img.1920.medium.jpg/1567085899345.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
     number: 4,
     team: "McLaren",
     yearsOld: {
@@ -30,6 +38,8 @@ const drivers = [
     name: "Sebastian Vettel",
     imgURL:
       "https://www.formula1.com/content/fom-website/en/drivers/sebastian-vettel/_jcr_content/image.img.1920.medium.jpg/1567175200601.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/sebastian-vettel/_jcr_content/helmet.img.png/1567176245338.png",
     number: 5,
     team: "Ferrari",
     yearsOld: {
@@ -43,6 +53,8 @@ const drivers = [
     name: "Kimi Raikkonen",
     imgURL:
       "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/helmet.img.png/1551352334990.png",
     number: 7,
     team: "Alfa Romeo",
     yearsOld: {
@@ -54,6 +66,10 @@ const drivers = [
   {
     id: 5,
     name: "Romain Grosjean",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/romain-grosjean/_jcr_content/image.img.1920.medium.jpg/1568719868304.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/romain-grosjean/_jcr_content/helmet.img.png/1551351963006.png",
     number: 8,
     team: "Haas F1 Team",
     yearsOld: {
@@ -65,6 +81,10 @@ const drivers = [
   {
     id: 6,
     name: "Pierre Gasly",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/pierre-gasly/_jcr_content/image.img.1920.medium.jpg/1566295417688.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/pierre-gasly/_jcr_content/helmet.img.png/1551351962002.png",
     number: 10,
     team: "Toro Rosso",
     yearsOld: {
@@ -76,6 +96,10 @@ const drivers = [
   {
     id: 7,
     name: "Sergio Perez",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/sergio-perez/_jcr_content/image.img.1920.medium.jpg/1554818944774.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/sergio-perez/_jcr_content/helmet.img.png/1552565540424.png",
     number: 11,
     team: "Racing Point",
     yearsOld: {
@@ -87,6 +111,10 @@ const drivers = [
   {
     id: 8,
     name: "Charles Leclerc",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/charles-leclerc/_jcr_content/image.img.1920.medium.jpg/1567179277948.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/charles-leclerc/_jcr_content/helmet.img.png/1567176245008.png",
     number: 16,
     team: " Ferrari",
     yearsOld: {
@@ -98,6 +126,10 @@ const drivers = [
   {
     id: 9,
     name: "Lance Stroll",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/lance-stroll/_jcr_content/image.img.1920.medium.jpg/1554818895505.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/lance-stroll/_jcr_content/helmet.img.png/1552565540999.png",
     number: 18,
     team: "Racing Point",
     yearsOld: {
@@ -109,6 +141,10 @@ const drivers = [
   {
     id: 10,
     name: "Kevin Magnussen",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/kevin-magnussen/_jcr_content/image.img.1920.medium.jpg/1568719901149.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/kevin-magnussen/_jcr_content/helmet.img.png/1551351958111.png",
     number: 20,
     team: "Haas F1 Team",
     yearsOld: {
@@ -120,6 +156,10 @@ const drivers = [
   {
     id: 11,
     name: "Alex Albon",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/alexander-albon/_jcr_content/helmet.img.png/1552320745924.png",
     number: 23,
     team: "Red Bull Racing",
     yearsOld: {
@@ -131,6 +171,10 @@ const drivers = [
   {
     id: 12,
     name: "Daniil Kvyat",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/daniil-kvyat/_jcr_content/image.img.1920.medium.jpg/1554819075478.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/daniil-kvyat/_jcr_content/helmet.img.png/1552320746276.png",
     number: 26,
     team: "Toro Rosso",
     yearsOld: {
@@ -142,6 +186,10 @@ const drivers = [
   {
     id: 13,
     name: "Nico Hulkenberg",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/nico-hulkenberg/_jcr_content/image.img.1920.medium.jpg/1554818995713.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/nico-hulkenberg/_jcr_content/helmet.img.png/1551352334671.png",
     number: 27,
     team: "Renault F1 Team",
     yearsOld: {
@@ -153,6 +201,10 @@ const drivers = [
   {
     id: 14,
     name: "Max Verstappen",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/_jcr_content/image.img.1920.medium.jpg/1554819019533.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
     number: 33,
     team: "Red Bull Racing",
     yearsOld: {
@@ -164,6 +216,10 @@ const drivers = [
   {
     id: 15,
     name: "Lewis Hamilton",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
     number: 44,
     team: "Mercedes",
     yearsOld: {
@@ -175,6 +231,10 @@ const drivers = [
   {
     id: 16,
     name: "Carlos Sainz Jr.",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
     number: 55,
     team: "McLaren",
     yearsOld: {
@@ -186,6 +246,10 @@ const drivers = [
   {
     id: 17,
     name: "George Russell",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
     number: 63,
     team: "Williams",
     yearsOld: {
@@ -197,6 +261,10 @@ const drivers = [
   {
     id: 18,
     name: "Valtteri Bottas",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
     number: 77,
     team: "Mercedes",
     yearsOld: {
@@ -208,6 +276,10 @@ const drivers = [
   {
     id: 19,
     name: "Robert Kubica",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
     number: 88,
     team: "Williams",
     yearsOld: {

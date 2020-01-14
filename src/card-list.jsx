@@ -14,6 +14,11 @@ function CardList(props) {
           team={createCard.team}
           age={createCard.yearsOld.age}
           country={createCard.country}
+          helmet={createCard.helmet}
+          podiums={createCard.podiums}
+          points={createCard.points}
+          grandPrix={createCard.grandPrix}
+          highestPol={createCard.highestPol}
         />
       ))}
     </div>

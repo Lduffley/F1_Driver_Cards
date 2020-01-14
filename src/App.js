@@ -1,11 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./styles.css";
 import CardList from "./card-list";
 import SearchBox from "./searchbox";
 import allDrivers from "./drivers";
 
 export default function App() {
-  const [drivers, setDrivers] = React.useState(allDrivers);
+  const [drivers, setDrivers] = useState(allDrivers);
 
   return (
     <div className="App">
