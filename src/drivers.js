@@ -217,9 +217,9 @@ const drivers = [
     id: 15,
     name: "Lewis Hamilton",
     imgURL:
-      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+      "https://www.formula1.com/content/fom-website/en/drivers/lewis-hamilton/_jcr_content/image.img.1920.medium.jpg/1554818913486.jpg",
     helmet:
-      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
+      "https://www.formula1.com/content/fom-website/en/drivers/lewis-hamilton/_jcr_content/helmet.img.png/1551351963565.png",
     number: 44,
     team: "Mercedes",
     yearsOld: {
@@ -232,9 +232,9 @@ const drivers = [
     id: 16,
     name: "Carlos Sainz Jr.",
     imgURL:
-      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+      "https://www.formula1.com/content/fom-website/en/drivers/carlos-sainz/_jcr_content/image.img.1920.medium.jpg/1567085905449.jpg",
     helmet:
-      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
+      "https://www.formula1.com/content/fom-website/en/drivers/carlos-sainz/_jcr_content/helmet.img.png/1567520464991.png",
     number: 55,
     team: "McLaren",
     yearsOld: {
@@ -247,9 +247,9 @@ const drivers = [
     id: 17,
     name: "George Russell",
     imgURL:
-      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+      "https://www.formula1.com/content/fom-website/en/drivers/george-russell/_jcr_content/image.img.1920.medium.jpg/1554818804832.jpg",
     helmet:
-      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
+      "https://www.formula1.com/content/fom-website/en/drivers/george-russell/_jcr_content/helmet.img.png/1551351959067.png",
     number: 63,
     team: "Williams",
     yearsOld: {
@@ -262,9 +262,9 @@ const drivers = [
     id: 18,
     name: "Valtteri Bottas",
     imgURL:
-      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+      "https://www.formula1.com/content/fom-website/en/drivers/valtteri-bottas/_jcr_content/image.img.1920.medium.jpg/1554818929157.jpg",
     helmet:
-      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
+      "https://www.formula1.com/content/fom-website/en/drivers/valtteri-bottas/_jcr_content/helmet.img.png/1551351962160.png",
     number: 77,
     team: "Mercedes",
     yearsOld: {
@@ -277,9 +277,9 @@ const drivers = [
     id: 19,
     name: "Robert Kubica",
     imgURL:
-      "https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.1920.medium.jpg/1554819054944.jpg",
+      "https://www.formula1.com/content/fom-website/en/drivers/robert-kubica/_jcr_content/image.img.1920.medium.jpg/1554818824881.jpg",
     helmet:
-      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
+      "https://www.formula1.com/content/fom-website/en/drivers/robert-kubica/_jcr_content/helmet.img.png/1551351964749.png",
     number: 88,
     team: "Williams",
     yearsOld: {
@@ -291,6 +291,10 @@ const drivers = [
   {
     id: 20,
     name: "Antonio Giovinazzi",
+    imgURL:
+      "https://www.formula1.com/content/fom-website/en/drivers/antonio-giovinazzi/_jcr_content/image.img.1920.medium.jpg/1554818879413.jpg",
+    helmet:
+      "https://www.formula1.com/content/fom-website/en/drivers/antonio-giovinazzi/_jcr_content/helmet.img.png/1552552749988.png",
     number: 99,
     team: "Alfa Romeo",
     yearsOld: {
