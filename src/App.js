@@ -9,7 +9,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>F1 Drivers</h1>
+      <h1>2019 F1 Drivers</h1>
       <SearchBox
         onSearch={v => {
           if (!v) {

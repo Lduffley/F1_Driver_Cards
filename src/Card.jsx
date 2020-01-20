@@ -9,9 +9,9 @@ function Card(props) {
         <img alt="driver" src={props.imgURL} />
         <h2>{props.name}</h2>
         <h3> Number: {props.number}</h3>
-        <p> Age: {props.age}</p>
-        <p>Team: {props.team}</p>
-        <p> Country: {props.country}</p>
+        <h4> Age: {props.age}</h4>
+        <h4>Team: {props.team}</h4>
+        <h4> Country: {props.country}</h4>
         <div className="backCard">
           <img alt="helment" src={props.helmet} />
           <h3>Podiums: {props.podiums}</h3>
