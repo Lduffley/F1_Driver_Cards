@@ -31,7 +31,11 @@ const drivers = [
       born: "1999-11-13",
       age: 20
     },
-    country: "United Kingdom"
+    country: "United Kingdom",
+    podiums: "N/A",
+    points: 49,
+    grandPrix: 21,
+    highestPol: 5
   },
   {
     id: 3,
@@ -46,7 +50,11 @@ const drivers = [
       born: "1987-07-03",
       age: 32
     },
-    country: "Germany"
+    country: "Germany",
+    podiums: 120,
+    points: 2985,
+    grandPrix: 241,
+    highestPol: 1
   },
   {
     id: 4,
@@ -61,7 +69,11 @@ const drivers = [
       born: "1979-10-17 ",
       age: 40
     },
-    country: "Finland"
+    country: "Finland",
+    podiums: 120,
+    points: 2985,
+    grandPrix: 241,
+    highestPol: 1
   },
   {
     id: 5,
