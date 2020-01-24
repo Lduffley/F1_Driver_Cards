@@ -10,7 +10,7 @@ const drivers = [
     team: "Renault F1 Team",
     yearsOld: {
       born: "1989-07-01",
-      age: 3
+      age: 30
     },
     country: "Australia",
     podiums: 29,
