@@ -161,7 +161,7 @@ const drivers = [
     team: "Haas F1 Team",
     yearsOld: {
       born: "1992-10-05",
-      age: 27
+      age: 2
     },
     country: "Denmark"
   },
