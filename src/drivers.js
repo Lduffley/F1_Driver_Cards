@@ -88,7 +88,11 @@ const drivers = [
       born: "1986-04-17",
       age: 33
     },
-    country: "France"
+    country: "France",
+    podiums: 10,
+    points: 389,
+    grandPrix: 166,
+    highestPol: 2
   },
   {
     id: 6,
@@ -103,7 +107,11 @@ const drivers = [
       born: "1996-02-07",
       age: 23
     },
-    country: "France"
+    country: "France",
+    podiums: 1,
+    points: 124,
+    grandPrix: 47,
+    highestPol: 4
   },
   {
     id: 7,
@@ -118,7 +126,11 @@ const drivers = [
       born: "1990-01-26",
       age: 29
     },
-    country: "Mexico"
+    country: "Mexico",
+    podiums: 8,
+    points: 581,
+    grandPrix: 178,
+    highestPol: 4
   },
   {
     id: 8,
@@ -133,7 +145,11 @@ const drivers = [
       born: "1997-10-16",
       age: 22
     },
-    country: "Monaco"
+    country: "Monaco",
+    podiums: 10 ,
+    points: 303,
+    grandPrix: 42,
+    highestPol: 1
   },
   {
     id: 9,
@@ -148,7 +164,11 @@ const drivers = [
       born: "1998-10-29",
       age: 21
     },
-    country: "Canada"
+    country: "Canada",
+    podiums: 1,
+    points: 67,
+    grandPrix: 62,
+    highestPol: 2
   },
   {
     id: 10,
@@ -163,7 +183,11 @@ const drivers = [
       born: "1992-10-05",
       age: 2
     },
-    country: "Denmark"
+    country: "Denmark",
+    podiums: 1,
+    points: 157,
+    grandPrix: 103,
+    highestPol: 4
   },
   {
     id: 11,
@@ -178,7 +202,11 @@ const drivers = [
       born: "1996-03-23",
       age: 23
     },
-    country: "Thailand"
+    country: "Thailand",
+    podiums: "N/A",
+    points: 92,
+    grandPrix: 21,
+    highestPol: 5
   },
   {
     id: 12,
@@ -193,22 +221,30 @@ const drivers = [
       born: "1994-04-26",
       age: 25
     },
-    country: "Russian Federation"
+    country: "Russian Federation",
+    podiums: 3,
+    points: 170,
+    grandPrix: 95,
+    highestPol: 4
   },
   {
     id: 13,
-    name: "Nico Hulkenberg",
+    name: "Esteban Ocon",
     imgURL:
-      "https://www.formula1.com/content/fom-website/en/drivers/nico-hulkenberg/_jcr_content/image.img.1920.medium.jpg/1554818995713.jpg",
+      "https://www.formula1.com/content/fom-website/en/drivers/esteban-ocon/_jcr_content/image.img.1920.medium.jpg/1579790911718.jpg",
     helmet:
-      "https://www.formula1.com/content/fom-website/en/drivers/nico-hulkenberg/_jcr_content/helmet.img.png/1551352334671.png",
-    number: 27,
+      "https://www.formula1.com/etc/designs/default/0.gif",
+    number: 31,
     team: "Renault F1 Team",
     yearsOld: {
-      born: "1987-08-19",
-      age: 32
+      born: "1996-09-17",
+      age: 24
     },
-    country: "Germany"
+    country: "France",
+    podiums: "N/A",
+    points: 136,
+    grandPrix: 50,
+    highestPol: 3
   },
   {
     id: 14,
@@ -216,7 +252,7 @@ const drivers = [
     imgURL:
       "https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/_jcr_content/image.img.1920.medium.jpg/1554819019533.jpg",
     helmet:
-      "https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/helmet.img.png/1567520464890.png",
+      "https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/_jcr_content/helmet.img.png/1552565541062.png",
     number: 33,
     team: "Red Bull Racing",
     yearsOld: {
