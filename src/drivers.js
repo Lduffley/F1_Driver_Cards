@@ -198,7 +198,7 @@ const drivers = [
     helmet:
       "https://www.formula1.com/content/fom-website/en/drivers/pierre-gasly/_jcr_content/helmet.img.png/1551351962002.png",
     number: 10,
-    team: "Toro Rosso",
+    team: "AlphaTauri",
     yearsOld: {
       born: "1996-02-07",
       age: 23
@@ -217,7 +217,7 @@ const drivers = [
     helmet:
       "https://www.formula1.com/content/fom-website/en/drivers/daniil-kvyat/_jcr_content/helmet.img.png/1552320746276.png",
     number: 26,
-    team: "Toro Rosso",
+    team: "AlphaTauri",
     yearsOld: {
       born: "1994-04-26",
       age: 25
@@ -334,7 +334,7 @@ const drivers = [
     team: "Haas F1 Team",
     yearsOld: {
       born: "1992-10-05",
-      age: 2
+      age: 28
     },
     country: "Denmark",
     podiums: 1,
